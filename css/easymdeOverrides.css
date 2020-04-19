@@ -1,0 +1,83 @@
+.CodeMirror {
+    border: 0px solid black;
+    border-radius: 0;
+    padding: 0;
+}
+
+.CodeMirror-sizer {
+    border-right: 0 !important;
+    padding-top: 5vh !important;
+    min-height: 90vh !important;
+}
+
+.CodeMirror, .CodeMirror-scroll {
+    overflow: visible !important;
+    padding: 0 !important;
+}
+
+/* General Text Styling */
+.cm-strong {
+    font-weight: 400;
+    color: #444;
+}
+.cm-hr {
+    color: white;
+    border-bottom: 1px solid #c7a674;
+    padding-right: 75%;
+    margin-left: 10%;
+}
+
+/* Specic Text Styling */
+.CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
+    font-weight: 200;
+    font-size: 16px;
+    color: #555;
+}
+
+.cm-header-1 {
+    border-bottom: 2px solid #c7a674;
+    padding: 0 15px 2px 0;
+    color: #222;
+}
+.cm-header {
+    font-weight: 500;
+    color: #444;
+}
+
+/* Formatting */
+.cm-formatting, .cm-formatting-header {
+    color: #A3ABB3;
+    border: 0 !important;
+    padding: 0 !important;
+    font-weight: 300;
+}
+.cm-formatting-header-1 {
+    font-size: 1.6em !important;
+    margin-left: -0.9em;
+}
+.cm-formatting-header-2 {
+    font-size: 1.3em !important;
+    margin-left: -1.5em;
+}
+.cm-formatting-header-3 {
+    font-size: 1em !important;
+    margin-left: -2.1em;
+}
+.cm-formatting-header-4, .cm-formatting-header-5, .cm-formatting-header-6 {
+    font-size: 0.8em !important;
+    margin-left: -2.7em;
+}
+.cm-formatting-header-5 {
+    margin-left: -3.2em;
+}
+.cm-formatting-header-6 {
+    margin-left: -3.8em;
+}
+
+.cm-formatting.cm-formatting-link.cm-link {
+    color: #A3ABB3 !important;
+}
+
+.cm-link {
+    color: #555 !important;
+}

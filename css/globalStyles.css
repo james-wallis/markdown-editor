@@ -1,0 +1,18 @@
+body, h1, h2, h3, h4, h5, h6, p, span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.ant-layout {
+    background-color: white;
+}
+
+.ant-layout-sider, .ant-layout-sider-trigger,
+.ant-menu, .ant-menu-item-selected {
+    background-color: #26262a !important;
+}
+
+.ant-menu-item-selected .anticon, .ant-menu-item-selected .anticon + span {
+    color: #c7a674 !important;
+}
