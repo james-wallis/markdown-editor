@@ -35,10 +35,14 @@
 }
 
 .cm-header-1 {
-    border-bottom: 2px solid #c7a674;
-    padding: 0 15px 2px 0;
+    border-bottom: 1px solid #c7a674;
+    padding: 0;
     color: #222;
 }
+.cm-header-1:last-child {
+    padding: 0 15px 1px 0;
+}
+
 .cm-header {
     font-weight: 500;
     color: #444;
