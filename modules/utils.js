@@ -1,7 +1,7 @@
 import MarkdownIt from 'markdown-it';
 
 
-export const removeMarkdownFromString = (str) => str.replace(/#|\s{1,}/g, '');
+export const removeMarkdownFromString = (str) => str.replace(/#|\s{2,}/g, '').trim();
 
 export const convertMarkdownToHTML = (markdown) => {
     const md = new MarkdownIt();

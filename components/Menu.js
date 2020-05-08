@@ -54,7 +54,7 @@ function SideMenu() {
     const exportToHTML = (id) => {
         const { content } = documents[id];
         convertMarkdownToHTML(content);
-    }
+    };
 
     return (
         <Sider collapsible collapsed={collapsed} onCollapse={toggleCollapsed}>

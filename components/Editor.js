@@ -8,6 +8,7 @@ function Editor() {
     const { documents, updateDocument } = useContext(EditorContext);
     const { activeDocumentID } = useContext(ActiveDocumentContext);
     const document = documents[activeDocumentID];
+    console.log(document);
     const content = (document && document.content) ? document.content : '';
     return (
         <Layout className="site-layout">
