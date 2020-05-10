@@ -7,6 +7,7 @@ import { EditorContext } from '../contexts/EditorContext';
 import { ActiveDocumentContext } from '../contexts/ActiveDocumentContext';
 import { removeMarkdownFromString, convertMarkdownToHTML } from '../modules/utils';
 import PublishModal from './PublishModal';
+import GoogleAPI from './GoogleApi';
 
 const { Sider } = Layout;
 const { SubMenu } = Menu;
@@ -60,6 +61,9 @@ function SideMenu() {
         <Sider collapsible collapsed={collapsed} onCollapse={toggleCollapsed}>
             <div className="logo" />
             <Menu theme="dark" mode="vertical" selectable={false}>
+                <Menu.Item key="temp">
+                    <GoogleAPI />
+                </Menu.Item>
                 <Menu.Item key="1" onClick={createNewDocument}>
                     <EditOutlined />
                     <span>New</span>

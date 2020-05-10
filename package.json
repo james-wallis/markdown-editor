@@ -10,6 +10,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "antd": "^4.0.1",
+    "googleapis": "^50.0.0",
     "markdown-it": "^10.0.0",
     "next": "latest",
     "prop-types": "^15.7.2",
